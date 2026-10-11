@@ -31,8 +31,8 @@ def lipa():
     
     # === MPESA DARAJA DIRECT - HAKUNA PROXY TENA ===
     try:
-        consumer_key = os.getenv("MPESA_CONSUMER_KEY")
-        consumer_secret = os.getenv("MPESA_CONSUMER_SECRET")
+        consumer_key = os.getenv("K8XJPZCVSA83pxa8VLQuBZkHXsZdT2NTbjn8KxA4G4xHtHAp")
+        consumer_secret = os.getenv("v9xYb59CUnKd1Smo0MAlxh8IN0AnCd625KvAah2kLNp6TCbb3F1VnESeTZeASTAs")
         # kama hamna env, tumia sandbox test
         if not consumer_key:
             return render_template_string(HTML, msg="Weka MPESA keys kwa Render > Environment")
